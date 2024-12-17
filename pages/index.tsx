@@ -15,7 +15,7 @@ export default function home() {
         <meta property="og:title" content="Rahul Kukadiya | Java Full Stack Developer" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://deverajc.com/" />
-        <meta property="og:image" content="https://deverajc.com/screenshot.png" />
+        {/*<meta property="og:image" content="https://deverajc.com/screenshot.png" />*/}
         <meta property="og:description" content="Hey! I'm Rahul Kukadiya, and I'm a Master of Science in Computer Science graduate." />
 
         <meta name="twitter:card" content="summary"/>

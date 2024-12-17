@@ -13,18 +13,18 @@ export const Hero = () => {
         <div className={styles.copyWrapper}>
           <Reveal>
             <h1 className={styles.title}>
-              Hi, I&apos;m JC<span>.</span>
+              Hi, I&apos;m Rahul<span>.</span>
             </h1>
           </Reveal>
           <Reveal>
             <h2 className={styles.subTitle}>
-              I&apos;m a <span>Frontend Developer</span>
+              I&apos;m a <span>Full-Stack Java Developer</span>
             </h2>
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              I&apos;ve spent the last 3 years building and scaling applications for
-              some pretty cool companies and individuals. I also create interesting self projects on my spare time.
+              I&apos;ve over 5 years of experience building and scaling applications across diverse domains,
+              including healthcare, finance and retail, working with organizations ranging from startups to some of the largest companies in the world.
               Let&apos;s connect!
             </p>
           </Reveal>
@@ -44,7 +44,7 @@ export const Hero = () => {
             className={styles.profile}
             src={Profile}
             priority
-            alt="John Carlo Devera | Frontend Developer"
+            alt="Rahul Kukadiya | Full-Stack Java Developer"
             width={250}
             height={250}
           />
