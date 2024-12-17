@@ -11,46 +11,43 @@ export const Stats = () => {
             <AiFillCode size="2.4rem" color="var(--brand)" />
             <span>Use at work</span>
           </h4>
-          <div className={styles.statGrid}>
-            <span className="chip">JavaScript</span>
-            <span className="chip">TypeScript</span>
-            <span className="chip">HTML</span>
-            <span className="chip">CSS</span>
-            <span className="chip">Tailwind</span>
-            <span className="chip">React</span>
-            <span className="chip">Nextjs</span>
-            <span className="chip">Vuejs</span>
-            <span className="chip">Redux</span>
-            <span className="chip">NodeJS</span>
-            <span className="chip">Express</span>
-            <span className="chip">Postgres</span>
-            <span className="chip">MongoDB</span>
-            <span className="chip">Firebase</span>
-            <span className="chip">GitHub</span>
-          </div>
+            <div className={styles.statGrid}>
+                <span className="chip">Spring Boot</span>
+                <span className="chip">Java</span>
+                <span className="chip">J2EE</span>
+                <span className="chip">AngularJS</span>
+                <span className="chip">Angular</span>
+                <span className="chip">GraphQL</span>
+                <span className="chip">HTML</span>
+                <span className="chip">CSS</span>
+                <span className="chip">NodeJS</span>
+                <span className="chip">Jest</span>
+                <span className="chip">Postgres</span>
+                <span className="chip">MongoDB</span>
+                <span className="chip">MySQL</span>
+                <span className="chip">GitHub</span>
+                <span className="chip">AWS</span>
+                <span className="chip">Microsoft Azure</span>
+            </div>
         </div>
       </Reveal>
-      <Reveal>
+        <Reveal>
         <div className={styles.statColumn}>
-          <h4>
+        <h4>
             <AiFillSmile size="2.4rem" color="var(--brand)" />
             <span>Use for fun</span>
           </h4>
-          <div className={styles.statGrid}>
-            <span className="chip">React Native</span>
-            <span className="chip">Gatsby</span>
-            <span className="chip">Chakra Ui</span>
-            <span className="chip">Tailwind</span>
-            <span className="chip">Figma</span>
-            <span className="chip">Planetscale</span>
-            <span className="chip">GraphQL</span>
-            <span className="chip">Firebase</span>
-            <span className="chip">Supabase</span>
-            <span className="chip">Vercel</span>
-            <span className="chip">Laravel</span>
-          </div>
+            <div className={styles.statGrid}>
+                <span className="chip">TypeScript</span>
+                <span className="chip">Scala</span>
+                <span className="chip">Neo4J</span>
+                <span className="chip">JBoss</span>
+                <span className="chip">VueJS</span>
+                <span className="chip">MongoDB</span>
+                <span className="chip">SocketCluster</span>
+            </div>
         </div>
-      </Reveal>
+        </Reveal>
     </div>
   );
 };

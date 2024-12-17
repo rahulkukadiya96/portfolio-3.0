@@ -13,15 +13,14 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Howdy! I&apos;m John Carlo Devera, and I&apos;m a Bachelor of Science in Information Technology graduate.
+              Howdy! I&apos;m Rahul Kukadiya, and I&apos;m a Master of Science in Computer Science graduate.
               <br/><br/>
-              I have experience working in both the mobile and web development worlds, with a focus on frontend development. I&apos;m passionate about creating beautiful, responsive websites that provide a great user experience.
+              As a Senior Software Developer with over 5 years of experience, I have developed a strong foundation in both front-end and back-end technologies across diverse industries, including healthcare, banking, and retail. My expertise lies in Java, Spring Boot, JEE, and cloud platforms like Azure and AWS, where I have consistently delivered scalable and efficient solutions. I have also worked with a diverse and collaborative team of developers, testers, product and business analysts, using agile methodologies and Git Bash for version control.
              </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              My skills include HTML, CSS, JavaScript, and various frontend frameworks like React and Vue.js. 
-              I&apos;ve also worked with backend technologies like Node.js, Firebase, MongoDB and PHP/Laravel , allowing me to build full-stack applications.
+              I have had the opportunity to work on critical projects such as EMR system integration and mobile application development, contributing to the healthcare sector's technological advancements. Additionally, my experience at Tata Consultancy Services and eClinicalWorks allowed me to lead teams, mentor junior developers, and collaborate with cross-functional teams to meet high standards in performance and security.
             </p>
           </Reveal>
           <Reveal>
