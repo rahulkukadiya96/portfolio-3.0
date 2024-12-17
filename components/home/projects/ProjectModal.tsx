@@ -49,14 +49,14 @@ export const ProjectModal = ({
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}
       >
-        <Image
-          priority
-          src={imgSrc}
-          alt={`An image of the ${title} project.`}
-          width={500}
-          height={400}
-          className={styles.modalImage}
-          />
+        {/*<Image*/}
+        {/*  priority*/}
+        {/*  src={imgSrc}*/}
+        {/*  alt={`An image of the ${title} project.`}*/}
+        {/*  width={500}*/}
+        {/*  height={400}*/}
+        {/*  className={styles.modalImage}*/}
+        {/*  />*/}
         {/* <img
           className={styles.modalImage}
           src={imgSrc}
@@ -68,19 +68,19 @@ export const ProjectModal = ({
 
           <div className={styles.suppliedContent}>{modalContent}</div>
 
-          <div className={styles.modalFooter}>
-            <p className={styles.linksText}>
-              Project Links<span>.</span>
-            </p>
-            <div className={styles.links}>
-              <Link target="_blank" rel="nofollow" href={code}>
-                <AiFillGithub /> source code
-              </Link>
-              <Link target="_blank" rel="nofollow" href={projectLink}>
-                <AiOutlineExport /> live project
-              </Link>
-            </div>
-          </div>
+          {/*<div className={styles.modalFooter}>*/}
+          {/*  <p className={styles.linksText}>*/}
+          {/*    Project Links<span>.</span>*/}
+          {/*  </p>*/}
+          {/*  <div className={styles.links}>*/}
+          {/*    <Link target="_blank" rel="nofollow" href={code}>*/}
+          {/*      <AiFillGithub /> source code*/}
+          {/*    </Link>*/}
+          {/*    <Link target="_blank" rel="nofollow" href={projectLink}>*/}
+          {/*      <AiOutlineExport /> live project*/}
+          {/*    </Link>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </div>
       </motion.div>
     </div>

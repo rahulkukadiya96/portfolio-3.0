@@ -54,7 +54,7 @@ const experience = [
     time: "April 2017 - Feb 2018",
     location: "Ahmedabad, India",
     description:
-      "Collaborated with the Team Lead and a 5-member customization team to design and develop OrderHive, a comprehensive order management tool. Worked diligently to develop and enhance the application, actively contributing to its design and functionality to meet the specific requirements outlined by our client",
+      "Collaborated with the Team Lead and a 5-member customization team to design and develop OrderHive, a comprehensive order management tool. Worked diligently to develop and enhance the application, actively contributing to its design and functionality to meet the specific requirements outlined by our client.",
     tech: ["VueJS", "Java", "NodeJs", "GraphQL", "Vuetify", "MySQL", "Websockets",  "Spring Boot", "SocketCluster", "GitLab"],
   },
   // {
