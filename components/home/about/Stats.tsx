@@ -17,12 +17,16 @@ export const Stats = () => {
                 <span className="chip">J2EE</span>
                 <span className="chip">AngularJS</span>
                 <span className="chip">Angular</span>
+                <span className="chip">Spring OAuth2</span>
+                <span className="chip">Spring Data</span>
+                <span className="chip">Spring Security</span>
+                <span className="chip">Hibernate</span>
                 <span className="chip">GraphQL</span>
                 <span className="chip">HTML</span>
                 <span className="chip">CSS</span>
                 <span className="chip">NodeJS</span>
                 <span className="chip">Jest</span>
-                <span className="chip">Postgres</span>
+                <span className="chip">Apache Kafka</span>
                 <span className="chip">MongoDB</span>
                 <span className="chip">MySQL</span>
                 <span className="chip">GitHub</span>
@@ -45,6 +49,7 @@ export const Stats = () => {
                 <span className="chip">VueJS</span>
                 <span className="chip">MongoDB</span>
                 <span className="chip">SocketCluster</span>
+                <span className="chip">Postgres</span>
             </div>
         </div>
         </Reveal>

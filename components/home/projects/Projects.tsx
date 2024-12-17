@@ -18,6 +18,24 @@ export const Projects = () => {
 
 const projects = [
     {
+        title: "QL4POMR PICO Wrapper",
+        imgSrc: "/project-imgs/agency-listing.png",
+        code: "#",
+        projectLink: "#",
+        tech: ["Scala", "Angular", "NLP", "Sequelize", "BIOBERT", "Neo4J", "Python", "Git", "Github"],
+        description: "QL4POMR PICO Wrapper is our translational medicine prototype representing a new vision to transform healthcare through interlinking everything from the bedside along with discoveries and knowledge available at the bench.",
+        modalContent: (
+            <>
+                <p>
+                    QL4POMR PICO Wrapper is a prototype search engine designed to retrieve relevant research studies
+                    based on patient conditions documented in SOAP notes. It generates comprehensive case reports by
+                    extracting articles from various sources, aiding physicians in making evidence-based medical
+                    decisions and prescribing treatments.
+                </p>
+            </>
+        ),
+    },
+    {
         title: "FHIR Dev Portal",
         imgSrc: "/project-imgs/agency-listing.png",
         code: "#",
@@ -40,6 +58,21 @@ const projects = [
                     external
                     applications with minimal human intervention. Additionally, it reduced the integration time from two
                     months to just one week, enabling clients to access FHIR via this portal more efficiently.
+                </p>
+            </>
+        ),
+    }, {
+        title: "Labhub",
+        imgSrc: "/project-imgs/agency-listing.png",
+        code: "#",
+        projectLink: "#",
+        tech: ["Spring Boot", "FTP", "Quartz Framework", "JSP",  "JUnit", "AngularJS", "Groovy (Test Cases)", "Gradle"],
+        description: "Labhub serves as a central hub for synchronizing various EMR systems.",
+        modalContent: (
+            <>
+                <p>
+                    I work on the ADT and referral interface dashboard, which facilitates sending messages from the EMR
+                    to Labhub. From there, Labhub forwards the messages to vendors or the destination EMR.
                 </p>
             </>
         ),
@@ -80,14 +113,13 @@ const projects = [
             <>
                 <p>
                     Instrumental in the development of a groundbreaking project focused on point redemption for users
-                    who
-                    earned points through transactions. As a developer, played a pivotal role in implementing features
-                    such as
-                    point redemption eligibility checks, actual point redemption processes, and the reversal of point
-                    redemption
-                    transactions. Notably, this initiative marked the first time in Canada that a bank introduced such
-                    features,
-                    enhancing user engagement and loyalty
+                    who earned points through transactions. As a developer, played a pivotal role in implementing
+                    features
+                    such as point redemption eligibility checks, actual point redemption processes, and the reversal of
+                    point
+                    redemption transactions. Notably, this initiative marked the first time in Canada that a bank
+                    introduced such
+                    features, enhancing user engagement and loyalty
                 </p>
             </>
         ),
@@ -112,7 +144,6 @@ const projects = [
                 <p>
                     I have created automation code as per client’s business requirements. I have also integrated some
                     additional channels on client’s dedicated server.
-
                 </p>
             </>
         ),
