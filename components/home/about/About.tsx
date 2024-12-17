@@ -20,7 +20,7 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I have had the opportunity to work on critical projects such as EMR system integration and mobile application development, contributing to the healthcare sector's technological advancements. Additionally, my experience at Tata Consultancy Services and eClinicalWorks allowed me to lead teams, mentor junior developers, and collaborate with cross-functional teams to meet high standards in performance and security.
+              I have had the opportunity to work on critical projects such as EMR system integration and mobile application development, contributing to the healthcare domain. Additionally, my experience at Tata Consultancy Services and eClinicalWorks allowed me to lead teams, mentor junior developers, and collaborate with cross-functional teams to meet high standards in performance and security.
             </p>
           </Reveal>
           <Reveal>
